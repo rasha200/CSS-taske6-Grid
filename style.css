@@ -1,0 +1,19 @@
+.parent div{
+          background-color: #6A83E4;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    grid-template-rows: 170px 170px 170px 170px;
+    column-gap: 50px;
+}
+
+.parent2{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns:repeat(3, 450px) ;
+    grid-template-rows: repeat(2,200px);
+    column-gap: 70px;
+    
+}
